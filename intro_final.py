@@ -11,4 +11,5 @@ print(dataX)
 print(dataY)
 
 for rows in dataX:
-    print(rows)
+    X.append(rows)
+print(X)
