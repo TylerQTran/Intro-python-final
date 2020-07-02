@@ -1,11 +1,16 @@
 import csv
-import matplotli
+X = []
 
 dataX = open('C:/Users/tyler/OneDrive/Documents/python/Intro-python-final/dataX.csv')
 dataY = open('C:/Users/tyler/OneDrive/Documents/python/Intro-python-final/dataY.csv')
 
-csv.reader(dataX)
-csv.reader(dataY)
+dataX = csv.reader(dataX)
+dataY = csv.reader(dataY)
 
-open(dataY)
-open(dataX)
+print(dataX)
+print(dataY)
+
+For rows in dataX:
+    x.append(rows[0])
+
+print(X)
