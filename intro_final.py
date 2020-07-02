@@ -10,7 +10,5 @@ dataY = csv.reader(dataY)
 print(dataX)
 print(dataY)
 
-For rows in dataX:
-    x.append(rows[0])
-
-print(X)
+for rows in dataX:
+    print(rows)
