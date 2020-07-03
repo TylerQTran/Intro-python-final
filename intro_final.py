@@ -1,3 +1,4 @@
+import matplotlib.pyplt as plt 
 import csv
 dataX = open('C:/Users/tyler/OneDrive/Documents/python/Intro-python-final/dataX.csv','r')
 dataY = open('C:/Users/tyler/OneDrive/Documents/python/Intro-python-final/dataY.csv','r')
@@ -16,6 +17,6 @@ for rows in dataY:
 print(X)
 print(Y)
 sumofarea = 0
-for i in range len(Y):
-    ((X[1] - X[0])*Y) + sumofarea
+for i in range(len(Y)):
+    sumofarea+=((X[1] - X[0])*Y[i])
 print(sumofarea)
